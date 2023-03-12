@@ -1,0 +1,13 @@
+.new-expense__controls {
+  @apply flex flex-wrap gap-4 text-left mb-4;
+}
+.new-expense__control label {
+  @apply font-bold block mb-2;
+}
+.new-expense__control input {
+  @apply border w-80 max-w-full p-2 rounded-md border-solid border-[#ccc];
+  font: inherit;
+}
+.new-expense__actions {
+  @apply text-right;
+}

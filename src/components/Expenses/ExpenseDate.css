@@ -1,0 +1,12 @@
+.expense-date {
+  @apply flex flex-col w-[5.5rem] h-[5.5rem] border bg-[#2a2a2a] text-[white] items-center justify-center rounded-xl border-solid border-[#ececec];
+}
+.expense-date__month {
+  @apply text-xs font-[bold];
+}
+.expense-date__year {
+  @apply text-xs;
+}
+.expense-date__day {
+  @apply text-2xl font-[bold];
+}

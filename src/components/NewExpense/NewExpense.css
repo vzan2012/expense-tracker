@@ -1,0 +1,18 @@
+.new-expense {
+  @apply bg-[#a892ee] w-[50rem] max-w-[95%] text-center shadow-[0_1px_8px_rgba(0,0,0,0.25)] mx-auto my-8 p-4 rounded-xl;
+}
+.new-expense button {
+  @apply cursor-pointer border bg-[#40005d] text-[white] mr-4 px-8 py-4 rounded-xl border-solid border-[#40005d];
+  font: inherit;
+}
+.new-expense button:hover,
+.new-expense button:active {
+  @apply bg-[#510674] border-[#510674];
+}
+.new-expense button.alternative {
+  @apply text-[#220131] bg-transparent border-transparent;
+}
+.new-expense button.alternative:hover,
+.new-expense button.alternative:active {
+  @apply bg-[#ddb3f8];
+}
