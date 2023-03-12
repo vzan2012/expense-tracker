@@ -1,0 +1,13 @@
+.expenses-filter {
+  @apply text-white px-4 py-0;
+}
+.expenses-filter__control {
+  @apply flex w-full items-start justify-between mx-0 my-4;
+}
+.expenses-filter label {
+  @apply font-bold mb-2;
+}
+.expenses-filter select {
+  @apply font-bold text-black pl-2 pr-12 py-2 rounded-md items-start justify-start;
+  font: inherit;
+}
