@@ -1,0 +1,7 @@
+.expenses-list {
+  @apply p-0;
+  list-style: none;
+}
+.expenses-list__fallback {
+  @apply text-[white] text-center;
+}
