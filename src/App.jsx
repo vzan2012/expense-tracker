@@ -7,21 +7,27 @@ function App() {
   const DUMMY_EXPENSES = [
     {
       id: 1,
-      title: "Buy Car",
-      amount: 20000,
+      title: "AirTickets",
+      amount: 3000,
       date: new Date(2023, 1, 26),
     },
     {
       id: 2,
       title: "Buy Cycle",
-      amount: 10000,
+      amount: 1000,
       date: new Date(2023, 2, 31),
     },
     {
       id: 3,
-      title: "Buy Cycle - 2",
-      amount: 10000,
+      title: "Bills",
+      amount: 1000,
       date: new Date(2023, 2, 31),
+    },
+    {
+      id: 4,
+      title: "Bills",
+      amount: 500,
+      date: new Date(2023, 3, 1),
     },
   ];
 
@@ -29,8 +35,8 @@ function App() {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
   const addExpenseHandler = (expense) => {
-    console.log(`App.jsx`);
-    console.log(expense);
+    // console.log(`App.jsx`);
+    // console.log(expense);
     // setExpenses([expense, ...expenses]);
 
     setExpenses((prevExpense) => [expense, ...prevExpense]);
